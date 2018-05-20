@@ -78,6 +78,7 @@
 		AD01944A1F07AE640066D6EE = {
 			isa = PBXGroup;
 			children = (
+				AD10705D20B1E88200DE15DB /* README.md */,
 				AD0194551F07AE650066D6EE /* iOS Calc */,
 				AD01946A1F07AE660066D6EE /* iOS CalcTests */,
 				AD0194751F07AE660066D6EE /* iOS CalcUITests */,
@@ -102,7 +103,6 @@
 				AD10705A20B1C7C600DE15DB /* Application */,
 				AD10705B20B1C7D300DE15DB /* Controllers */,
 				AD10705C20B1C7DF00DE15DB /* Resources */,
-				AD10705D20B1E88200DE15DB /* README.md */,
 			);
 			path = "iOS Calc";
 			sourceTree = "<group>";
