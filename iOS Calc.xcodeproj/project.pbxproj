@@ -97,12 +97,10 @@
 		AD0194551F07AE650066D6EE /* iOS Calc */ = {
 			isa = PBXGroup;
 			children = (
-				AD0194561F07AE660066D6EE /* AppDelegate.swift */,
-				AD0194581F07AE660066D6EE /* ViewController.swift */,
-				AD01945A1F07AE660066D6EE /* Main.storyboard */,
-				AD01945D1F07AE660066D6EE /* Assets.xcassets */,
-				AD01945F1F07AE660066D6EE /* LaunchScreen.storyboard */,
 				AD0194621F07AE660066D6EE /* Info.plist */,
+				AD10705A20B1C7C600DE15DB /* Application */,
+				AD10705B20B1C7D300DE15DB /* Controllers */,
+				AD10705C20B1C7DF00DE15DB /* Resources */,
 			);
 			path = "iOS Calc";
 			sourceTree = "<group>";
@@ -123,6 +121,32 @@
 				AD0194781F07AE670066D6EE /* Info.plist */,
 			);
 			path = "iOS CalcUITests";
+			sourceTree = "<group>";
+		};
+		AD10705A20B1C7C600DE15DB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AD0194561F07AE660066D6EE /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AD10705B20B1C7D300DE15DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0194581F07AE660066D6EE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD10705C20B1C7DF00DE15DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD01945D1F07AE660066D6EE /* Assets.xcassets */,
+				AD01945A1F07AE660066D6EE /* Main.storyboard */,
+				AD01945F1F07AE660066D6EE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +212,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Varma;
 				TargetAttributes = {
 					AD0194521F07AE650066D6EE = {
@@ -326,12 +350,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -381,12 +409,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -524,6 +556,7 @@
 				AD01947D1F07AE670066D6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD01947E1F07AE670066D6EE /* Build configuration list for PBXNativeTarget "iOS CalcTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +565,7 @@
 				AD0194801F07AE670066D6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD0194811F07AE670066D6EE /* Build configuration list for PBXNativeTarget "iOS CalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +574,7 @@
 				AD0194831F07AE670066D6EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
