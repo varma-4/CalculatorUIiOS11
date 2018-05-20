@@ -47,6 +47,7 @@
 		AD0194721F07AE660066D6EE /* iOS CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0194761F07AE670066D6EE /* iOS_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CalcUITests.swift; sourceTree = "<group>"; };
 		AD0194781F07AE670066D6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD10705D20B1E88200DE15DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 				AD10705A20B1C7C600DE15DB /* Application */,
 				AD10705B20B1C7D300DE15DB /* Controllers */,
 				AD10705C20B1C7DF00DE15DB /* Resources */,
+				AD10705D20B1E88200DE15DB /* README.md */,
 			);
 			path = "iOS Calc";
 			sourceTree = "<group>";
